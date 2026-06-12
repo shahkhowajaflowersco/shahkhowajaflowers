@@ -20,8 +20,10 @@ body{font-family:'Inter',sans-serif;color:var(--text);background:var(--white);ov
 .topbar strong{font-weight:600}
 nav{background:var(--white);border-bottom:1px solid var(--gray-m);position:sticky;top:0;z-index:200}
 .nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:.9rem 2rem;gap:1rem;flex-wrap:wrap}
-.logo{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:600;color:var(--text);text-decoration:none;white-space:nowrap}
-.logo em{color:var(--pink);font-style:italic}
+.logo{display:flex;align-items:center;text-decoration:none;white-space:nowrap;gap:.5rem}
+.logo img{height:45px;width:auto;display:block}
+.logo-text{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:600;color:var(--text)}
+.logo-text em{color:var(--pink);font-style:italic}
 .nav-search{flex:1;max-width:380px;position:relative}
 .nav-search input{width:100%;padding:.5rem 1rem .5rem 2.6rem;border:1.5px solid var(--gray-m);border-radius:24px;font-size:.85rem;outline:none;font-family:'Inter',sans-serif;background:var(--gray)}
 .nav-search input:focus{border-color:var(--pink);background:var(--white)}
@@ -143,14 +145,17 @@ footer{background:#1a1714;color:#fff;padding:3rem 2rem 1.5rem}
 
 <nav>
   <div class="nav-inner">
-    <a class="logo" href="#"><em>Shah</em> Khowaja Flowers</a>
+    <a class="logo" href="#">
+      <img src="logo.jpeg" alt="Shah Khowaja Flowers Logo">
+      <span class="logo-text"><em>Shah</em> Khowaja Flowers</span>
+    </a>
     <div class="nav-search">
       <span class="search-icon">🔍</span>
       <input type="text" placeholder="Search flowers, bouquets, plants...">
     </div>
     <div class="nav-right">
       <div class="nav-phone">
-        <strong>03218734901</stron  g>
+        <strong>03452182099</stron  g>
         Mon–Sat, 9am–8pm
       </div>
       <button class="wa-nav-btn" onclick="openWADirect()">WhatsApp Order</button>
@@ -183,45 +188,7 @@ footer{background:#1a1714;color:#fff;padding:3rem 2rem 1.5rem}
       </div>
     </div>
     <div class="hero-img-box">
-      <svg viewBox="0 0 400 360" xmlns="http://www.w3.org/2000/svg" width="360" height="320">
-        <circle cx="200" cy="180" r="150" fill="#fce4ec" opacity="0.5"/>
-        <line x1="160" y1="320" x2="155" y2="200" stroke="#4a7c59" stroke-width="3" stroke-linecap="round"/>
-        <line x1="200" y1="330" x2="200" y2="205" stroke="#4a7c59" stroke-width="3" stroke-linecap="round"/>
-        <line x1="240" y1="320" x2="245" y2="200" stroke="#4a7c59" stroke-width="3" stroke-linecap="round"/>
-        <line x1="130" y1="315" x2="122" y2="230" stroke="#4a7c59" stroke-width="2" stroke-linecap="round"/>
-        <line x1="270" y1="315" x2="278" y2="230" stroke="#4a7c59" stroke-width="2" stroke-linecap="round"/>
-        <ellipse cx="143" cy="265" rx="18" ry="8" fill="#6a9a74" transform="rotate(-30 143 265)"/>
-        <ellipse cx="215" cy="275" rx="18" ry="8" fill="#6a9a74" transform="rotate(20 215 275)"/>
-        <ellipse cx="258" cy="258" rx="16" ry="7" fill="#6a9a74" transform="rotate(35 258 258)"/>
-        <circle cx="200" cy="180" r="42" fill="#f48fb1"/>
-        <circle cx="200" cy="180" r="30" fill="#e91e7a"/>
-        <circle cx="200" cy="180" r="18" fill="#c2185b"/>
-        <circle cx="200" cy="180" r="9" fill="#880e4f"/>
-        <ellipse cx="200" cy="145" rx="13" ry="19" fill="#f48fb1" opacity="0.8"/>
-        <ellipse cx="200" cy="215" rx="13" ry="19" fill="#f48fb1" opacity="0.8"/>
-        <ellipse cx="165" cy="180" rx="19" ry="13" fill="#f48fb1" opacity="0.8"/>
-        <ellipse cx="235" cy="180" rx="19" ry="13" fill="#f48fb1" opacity="0.8"/>
-        <circle cx="138" cy="215" r="28" fill="#fff9c4"/>
-        <circle cx="138" cy="215" r="19" fill="#fff176"/>
-        <circle cx="138" cy="215" r="11" fill="#f9a825"/>
-        <ellipse cx="138" cy="193" rx="9" ry="13" fill="#fff9c4" opacity="0.8"/>
-        <ellipse cx="138" cy="237" rx="9" ry="13" fill="#fff9c4" opacity="0.8"/>
-        <ellipse cx="116" cy="215" rx="13" ry="9" fill="#fff9c4" opacity="0.8"/>
-        <ellipse cx="160" cy="215" rx="13" ry="9" fill="#fff9c4" opacity="0.8"/>
-        <circle cx="262" cy="210" r="26" fill="#e1bee7"/>
-        <circle cx="262" cy="210" r="17" fill="#ce93d8"/>
-        <circle cx="262" cy="210" r="10" fill="#ab47bc"/>
-        <ellipse cx="262" cy="190" rx="8" ry="12" fill="#e1bee7" opacity="0.8"/>
-        <ellipse cx="262" cy="230" rx="8" ry="12" fill="#e1bee7" opacity="0.8"/>
-        <ellipse cx="242" cy="210" rx="12" ry="8" fill="#e1bee7" opacity="0.8"/>
-        <ellipse cx="282" cy="210" rx="12" ry="8" fill="#e1bee7" opacity="0.8"/>
-        <circle cx="130" cy="235" r="9" fill="#ffccbc"/>
-        <circle cx="270" cy="230" r="9" fill="#ffccbc"/>
-        <path d="M120 310 Q200 295 280 310 L265 350 Q200 338 135 350 Z" fill="#d4a96a" opacity="0.6"/>
-        <path d="M138 310 Q200 300 262 310 L250 348 Q200 338 150 348 Z" fill="#b8860b" opacity="0.45"/>
-        <path d="M182 308 Q200 318 218 308" stroke="#8b6914" stroke-width="2.5" fill="none"/>
-        <circle cx="200" cy="310" r="5" fill="#8b6914"/>
-      </svg>
+      <img src="logo.jpeg" alt="Shah Khowaja Flowers Logo" style="max-width:100%;max-height:100%;object-fit:contain">
     </div>
   </div>
 
@@ -283,9 +250,9 @@ footer{background:#1a1714;color:#fff;padding:3rem 2rem 1.5rem}
     <div class="contact-info-sec">
       <h1>Get in Touch</h1>
       <p>Need a custom arrangement, bulk order, or wedding flowers? WhatsApp us directly — fastest way to get in touch!</p>
-      <div class="info-block"><div class="info-icon">📍</div><div><div class="info-label">Address</div><div class="info-val">Teen Hatti Whole Sale Flower Market Karachi , Pakistan , 744000</div></div></div>
-      <div class="info-block"><div class="info-icon">📞</div><div><div class="info-label">Phone / WhatsApp</div><div class="info-val">03218734901</div></div></div>
-      <div class="info-block"><div class="info-icon">✉️</div><div><div class="info-label">Email</div><div class="info-val">shahkhowajaflowers.co@gmail.com</div></div></div>
+      <div class="info-block"><div class="info-icon">📍</div><div><div class="info-label">Address</div><div class="info-val">Shop #12, Garden Market, Karachi</div></div></div>
+      <div class="info-block"><div class="info-icon">📞</div><div><div class="info-label">Phone / WhatsApp</div><div class="info-val">03452182099</div></div></div>
+      <div class="info-block"><div class="info-icon">✉️</div><div><div class="info-label">Email</div><div class="info-val">shahkhowaja12@gmail.com</div></div></div>
       <div class="info-block"><div class="info-icon">⏰</div><div><div class="info-label">Hours</div><div class="info-val">Mon–Sat: 9am–8pm · Sun: 10am–5pm</div></div></div>
       <br>
       <button class="wa-contact-btn" onclick="openWADirect()">💬 Chat on WhatsApp Now</button>
@@ -402,7 +369,7 @@ footer{background:#1a1714;color:#fff;padding:3rem 2rem 1.5rem}
 <script>
 // ============================================================
 // 👇 APNA WHATSAPP NUMBER YAHAN DAALO (92 ke saath, 0 ke baghair)
-const WA_NUMBER = '923218734901';
+const WA_NUMBER = '923452182099';
 // ============================================================
 
 const products = [
