@@ -1,0 +1,46 @@
+PROPRIETARY SOFTWARE LICENSE
+
+Copyright (c) 2025. All Rights Reserved.
+
+This software and its source code, including all associated files, designs,
+graphics, and content (collectively, the "Software"), are the exclusive
+intellectual property of the owner and are protected by copyright law.
+
+RESTRICTIONS:
+
+1. NO USE — You may not use, copy, run, or execute this Software or any
+   portion of it for any purpose, commercial or non-commercial, without
+   prior written permission from the owner.
+
+2. NO MODIFICATION — You may not modify, adapt, translate, or create
+   derivative works based on this Software.
+
+3. NO DISTRIBUTION — You may not distribute, publish, sublicense, sell,
+   rent, lease, transfer, or otherwise make this Software available to
+   any third party.
+
+4. NO REVERSE ENGINEERING — You may not decompile, disassemble, or
+   reverse engineer any part of this Software.
+
+5. NO REPRODUCTION — You may not reproduce or duplicate this Software
+   in whole or in part.
+
+VIEWING ONLY:
+
+Access to this repository is granted solely for viewing purposes (e.g.,
+portfolio review, code inspection by authorized parties). Viewing does
+NOT grant any license, right, or permission to use, copy, or distribute
+the Software.
+
+VIOLATIONS:
+
+Any unauthorized use, reproduction, or distribution of this Software will
+constitute copyright infringement and may result in legal action.
+
+DISCLAIMER:
+
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. THE OWNER
+SHALL NOT BE LIABLE FOR ANY DAMAGES ARISING FROM UNAUTHORIZED USE OF THIS
+SOFTWARE.
+
+For licensing inquiries or permissions, contact the repository owner.
